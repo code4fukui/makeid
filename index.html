@@ -12,11 +12,15 @@
 import { ulid } from "https://code4fukui.github.io/ulid/ulid.js";
 import { cuid } from "https://code4fukui.github.io/cuid/cuid.js";
 import { nanoid } from "https://code4fukui.github.io/nanoid/nanoid.js";
-import { uuid } from "https://code4fukui.github.io/uuid/uuid.js";
+import { UUID } from "https://code4fukui.github.io/UUID/UUID.js";
+import { TID } from "https://code4fukui.github.io/TID/TID.js";
+
+const uuid = () => UUID.create();
+const tid = () => TID.create();
 
 const generate = () => {
   main.innerHTML = "";
-  const gens = { uuid, ulid, cuid, nanoid };
+  const gens = { uuid, ulid, cuid, nanoid, tid };
   for (const name in gens) {
     const gen = gens[name];
     const id = gen();
