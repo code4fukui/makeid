@@ -6,7 +6,7 @@ A web-based tool for generating and comparing various unique identifiers.
 
 ## Demo
 
-[**https://code4fukui.github.io/makeid/**](https://code4fukui.github.io/makeid/)
+[**https://github.com/code4fukui/makeid](https://code4fukui.github.io/makeid/)
 
 The web interface displays a list of generated IDs from different algorithms. Click the "generate" button to create a new set of IDs.
 

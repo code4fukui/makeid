@@ -4,7 +4,7 @@
 
 ## デモ
 
-[**https://code4fukui.github.io/makeid/**](https://code4fukui.github.io/makeid/)
+[**https://github.com/code4fukui/makeid](https://code4fukui.github.io/makeid/)
 
 ウェブインターフェースには、異なるアルゴリズムで生成されたIDのリストが表示されます。「generate」ボタンをクリックすると、新しいIDのセットが作成されます。
 
